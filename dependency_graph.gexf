@@ -1,0 +1,686 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-08-12">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="dependency_analyzer.FunctionVisitor.__init__" label="dependency_analyzer.FunctionVisitor.__init__">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_Import" label="dependency_analyzer.FunctionVisitor.visit_Import">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_ImportFrom" label="dependency_analyzer.FunctionVisitor.visit_ImportFrom">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_ClassDef" label="dependency_analyzer.FunctionVisitor.visit_ClassDef">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_FunctionDef" label="dependency_analyzer.FunctionVisitor.visit_FunctionDef">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_AsyncFunctionDef" label="dependency_analyzer.FunctionVisitor.visit_AsyncFunctionDef">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor.visit_Call" label="dependency_analyzer.FunctionVisitor.visit_Call">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor._extract_call_name" label="dependency_analyzer.FunctionVisitor._extract_call_name">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor._extract_attribute_call" label="dependency_analyzer.FunctionVisitor._extract_attribute_call">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.__init__" label="dependency_analyzer.DependencyAnalyzer.__init__">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.analyze_project" label="dependency_analyzer.DependencyAnalyzer.analyze_project">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer._analyze_file" label="dependency_analyzer.DependencyAnalyzer._analyze_file">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer._build_graph" label="dependency_analyzer.DependencyAnalyzer._build_graph">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.print_stats" label="dependency_analyzer.DependencyAnalyzer.print_stats">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.save_graph" label="dependency_analyzer.DependencyAnalyzer.save_graph">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.find_entry_points" label="dependency_analyzer.DependencyAnalyzer.find_entry_points">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.find_utilities" label="dependency_analyzer.DependencyAnalyzer.find_utilities">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.plot_graph" label="dependency_analyzer.DependencyAnalyzer.plot_graph">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.get_node_size" label="dependency_analyzer.DependencyAnalyzer.get_node_size">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer._get_layout" label="dependency_analyzer.DependencyAnalyzer._get_layout">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" label="dependency_analyzer.DependencyAnalyzer._hierarchical_layout">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" label="dependency_analyzer.DependencyAnalyzer.create_interactive_plot">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.main" label="dependency_analyzer.main">
+        <attvalues>
+          <attvalue for="0" value="local" />
+        </attvalues>
+      </node>
+      <node id="self.generic_visit" label="self.generic_visit">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.set" label="dependency_analyzer.set">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.visit_FunctionDef" label="self.visit_FunctionDef">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._extract_call_name" label="self._extract_call_name">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._extract_attribute_call" label="self._extract_attribute_call">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.isinstance" label="dependency_analyzer.isinstance">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="pathlib.Path" label="pathlib.Path">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.DiGraph" label="networkx.DiGraph">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._analyze_file" label="self._analyze_file">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.print" label="dependency_analyzer.print">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.source_dir.exists" label="self.source_dir.exists">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.list" label="dependency_analyzer.list">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FileNotFoundError" label="dependency_analyzer.FileNotFoundError">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.source_dir.rglob" label="self.source_dir.rglob">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._build_graph" label="self._build_graph">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="ast.parse" label="ast.parse">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="visitor.visit" label="visitor.visit">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.open" label="dependency_analyzer.open">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="file_path.relative_to" label="file_path.relative_to">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="relative_path.with_suffix" label="relative_path.with_suffix">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.all_functions.update" label="self.all_functions.update">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.FunctionVisitor" label="dependency_analyzer.FunctionVisitor">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.str" label="dependency_analyzer.str">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="f.read" label="f.read">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.all_functions.items" label="self.all_functions.items">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.add_edge" label="self.graph.add_edge">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.add_node" label="self.graph.add_node">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.has_node" label="self.graph.has_node">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.out_degree" label="self.graph.out_degree">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.nodes" label="self.graph.nodes">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.sorted" label="dependency_analyzer.sorted">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.len" label="dependency_analyzer.len">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.in_degree" label="self.graph.in_degree">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="d.get" label="d.get">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="external_usage.sort" label="external_usage.sort">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.number_of_edges" label="self.graph.number_of_edges">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.write_gexf" label="networkx.write_gexf">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="entry_points.append" label="entry_points.append">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="utilities.append" label="utilities.append">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="ax.axis" label="ax.axis">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.pyplot.show" label="matplotlib.pyplot.show">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.get_node_size" label="dependency_analyzer.get_node_size">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.draw_networkx_labels" label="networkx.draw_networkx_labels">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.pyplot.subplots" label="matplotlib.pyplot.subplots">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._get_layout" label="self._get_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.patches.Patch" label="matplotlib.patches.Patch">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="ax.set_title" label="ax.set_title">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.find_utilities" label="self.find_utilities">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.pyplot.style.use" label="matplotlib.pyplot.style.use">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="fig.patch.set_facecolor" label="fig.patch.set_facecolor">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.pyplot.tight_layout" label="matplotlib.pyplot.tight_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="matplotlib.pyplot.savefig" label="matplotlib.pyplot.savefig">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="node.split" label="node.split">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.draw_networkx_nodes" label="networkx.draw_networkx_nodes">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="ax.legend" label="ax.legend">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.edges" label="self.graph.edges">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.find_entry_points" label="self.find_entry_points">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.draw_networkx_edges" label="networkx.draw_networkx_edges">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.number_of_nodes" label="self.graph.number_of_nodes">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self.graph.degree" label="self.graph.degree">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.spring_layout" label="networkx.spring_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.circular_layout" label="networkx.circular_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="self._hierarchical_layout" label="self._hierarchical_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.kamada_kawai_layout" label="networkx.kamada_kawai_layout">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.topological_generations" label="networkx.topological_generations">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="networkx.is_directed_acyclic_graph" label="networkx.is_directed_acyclic_graph">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.max" label="dependency_analyzer.max">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.enumerate" label="dependency_analyzer.enumerate">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="nodes.append" label="nodes.append">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="f.write" label="f.write">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="edges.append" label="edges.append">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="json.dumps" label="json.dumps">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.min" label="dependency_analyzer.min">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="parser.parse_args" label="parser.parse_args">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="sys.exit" label="sys.exit">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.tuple" label="dependency_analyzer.tuple">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="parser.add_argument" label="parser.add_argument">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.plot_graph" label="analyzer.plot_graph">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="argparse.ArgumentParser" label="argparse.ArgumentParser">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.save_graph" label="analyzer.save_graph">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="dependency_analyzer.DependencyAnalyzer" label="dependency_analyzer.DependencyAnalyzer">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.find_utilities" label="analyzer.find_utilities">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="graph.number_of_nodes" label="graph.number_of_nodes">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.print_stats" label="analyzer.print_stats">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.create_interactive_plot" label="analyzer.create_interactive_plot">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.analyze_project" label="analyzer.analyze_project">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+      <node id="analyzer.find_entry_points" label="analyzer.find_entry_points">
+        <attvalues>
+          <attvalue for="0" value="external" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="self.generic_visit" target="dependency_analyzer.FunctionVisitor.visit_Import" id="0" />
+      <edge source="self.generic_visit" target="dependency_analyzer.FunctionVisitor.visit_ImportFrom" id="1" />
+      <edge source="self.generic_visit" target="dependency_analyzer.FunctionVisitor.visit_ClassDef" id="2" />
+      <edge source="self.generic_visit" target="dependency_analyzer.FunctionVisitor.visit_FunctionDef" id="3" />
+      <edge source="self.generic_visit" target="dependency_analyzer.FunctionVisitor.visit_Call" id="4" />
+      <edge source="dependency_analyzer.set" target="dependency_analyzer.FunctionVisitor.visit_FunctionDef" id="5" />
+      <edge source="self.visit_FunctionDef" target="dependency_analyzer.FunctionVisitor.visit_AsyncFunctionDef" id="6" />
+      <edge source="self._extract_call_name" target="dependency_analyzer.FunctionVisitor.visit_Call" id="7" />
+      <edge source="self._extract_attribute_call" target="dependency_analyzer.FunctionVisitor._extract_call_name" id="8" />
+      <edge source="self._extract_attribute_call" target="dependency_analyzer.FunctionVisitor._extract_attribute_call" id="9" />
+      <edge source="dependency_analyzer.isinstance" target="dependency_analyzer.FunctionVisitor._extract_call_name" id="10" />
+      <edge source="dependency_analyzer.isinstance" target="dependency_analyzer.FunctionVisitor._extract_attribute_call" id="11" />
+      <edge source="pathlib.Path" target="dependency_analyzer.DependencyAnalyzer.__init__" id="12" />
+      <edge source="networkx.DiGraph" target="dependency_analyzer.DependencyAnalyzer.__init__" id="13" />
+      <edge source="self._analyze_file" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="14" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="15" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="16" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="17" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer.save_graph" id="18" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="19" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="20" />
+      <edge source="dependency_analyzer.print" target="dependency_analyzer.main" id="21" />
+      <edge source="self.source_dir.exists" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="22" />
+      <edge source="dependency_analyzer.list" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="23" />
+      <edge source="dependency_analyzer.list" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="24" />
+      <edge source="dependency_analyzer.FileNotFoundError" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="25" />
+      <edge source="self.source_dir.rglob" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="26" />
+      <edge source="self._build_graph" target="dependency_analyzer.DependencyAnalyzer.analyze_project" id="27" />
+      <edge source="ast.parse" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="28" />
+      <edge source="visitor.visit" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="29" />
+      <edge source="dependency_analyzer.open" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="30" />
+      <edge source="dependency_analyzer.open" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="31" />
+      <edge source="file_path.relative_to" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="32" />
+      <edge source="relative_path.with_suffix" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="33" />
+      <edge source="self.all_functions.update" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="34" />
+      <edge source="dependency_analyzer.FunctionVisitor" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="35" />
+      <edge source="dependency_analyzer.str" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="36" />
+      <edge source="f.read" target="dependency_analyzer.DependencyAnalyzer._analyze_file" id="37" />
+      <edge source="self.all_functions.items" target="dependency_analyzer.DependencyAnalyzer._build_graph" id="38" />
+      <edge source="self.graph.add_edge" target="dependency_analyzer.DependencyAnalyzer._build_graph" id="39" />
+      <edge source="self.graph.add_node" target="dependency_analyzer.DependencyAnalyzer._build_graph" id="40" />
+      <edge source="self.graph.has_node" target="dependency_analyzer.DependencyAnalyzer._build_graph" id="41" />
+      <edge source="self.graph.out_degree" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="42" />
+      <edge source="self.graph.out_degree" target="dependency_analyzer.DependencyAnalyzer.find_entry_points" id="43" />
+      <edge source="self.graph.out_degree" target="dependency_analyzer.DependencyAnalyzer.find_utilities" id="44" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="45" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer.find_entry_points" id="46" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer.find_utilities" id="47" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="48" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="49" />
+      <edge source="self.graph.nodes" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="50" />
+      <edge source="dependency_analyzer.sorted" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="51" />
+      <edge source="dependency_analyzer.sorted" target="dependency_analyzer.DependencyAnalyzer.find_entry_points" id="52" />
+      <edge source="dependency_analyzer.sorted" target="dependency_analyzer.DependencyAnalyzer.find_utilities" id="53" />
+      <edge source="dependency_analyzer.len" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="54" />
+      <edge source="dependency_analyzer.len" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="55" />
+      <edge source="dependency_analyzer.len" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="56" />
+      <edge source="dependency_analyzer.len" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="57" />
+      <edge source="self.graph.in_degree" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="58" />
+      <edge source="self.graph.in_degree" target="dependency_analyzer.DependencyAnalyzer.find_entry_points" id="59" />
+      <edge source="self.graph.in_degree" target="dependency_analyzer.DependencyAnalyzer.find_utilities" id="60" />
+      <edge source="d.get" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="61" />
+      <edge source="d.get" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="62" />
+      <edge source="d.get" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="63" />
+      <edge source="external_usage.sort" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="64" />
+      <edge source="self.graph.number_of_edges" target="dependency_analyzer.DependencyAnalyzer.print_stats" id="65" />
+      <edge source="networkx.write_gexf" target="dependency_analyzer.DependencyAnalyzer.save_graph" id="66" />
+      <edge source="entry_points.append" target="dependency_analyzer.DependencyAnalyzer.find_entry_points" id="67" />
+      <edge source="utilities.append" target="dependency_analyzer.DependencyAnalyzer.find_utilities" id="68" />
+      <edge source="ax.axis" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="69" />
+      <edge source="matplotlib.pyplot.show" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="70" />
+      <edge source="dependency_analyzer.get_node_size" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="71" />
+      <edge source="networkx.draw_networkx_labels" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="72" />
+      <edge source="matplotlib.pyplot.subplots" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="73" />
+      <edge source="self._get_layout" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="74" />
+      <edge source="matplotlib.patches.Patch" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="75" />
+      <edge source="ax.set_title" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="76" />
+      <edge source="self.find_utilities" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="77" />
+      <edge source="matplotlib.pyplot.style.use" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="78" />
+      <edge source="fig.patch.set_facecolor" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="79" />
+      <edge source="matplotlib.pyplot.tight_layout" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="80" />
+      <edge source="matplotlib.pyplot.savefig" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="81" />
+      <edge source="node.split" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="82" />
+      <edge source="node.split" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="83" />
+      <edge source="networkx.draw_networkx_nodes" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="84" />
+      <edge source="ax.legend" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="85" />
+      <edge source="self.graph.edges" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="86" />
+      <edge source="self.graph.edges" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="87" />
+      <edge source="self.find_entry_points" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="88" />
+      <edge source="networkx.draw_networkx_edges" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="89" />
+      <edge source="self.graph.number_of_nodes" target="dependency_analyzer.DependencyAnalyzer.plot_graph" id="90" />
+      <edge source="self.graph.degree" target="dependency_analyzer.DependencyAnalyzer.get_node_size" id="91" />
+      <edge source="self.graph.degree" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="92" />
+      <edge source="networkx.spring_layout" target="dependency_analyzer.DependencyAnalyzer._get_layout" id="93" />
+      <edge source="networkx.spring_layout" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="94" />
+      <edge source="networkx.circular_layout" target="dependency_analyzer.DependencyAnalyzer._get_layout" id="95" />
+      <edge source="self._hierarchical_layout" target="dependency_analyzer.DependencyAnalyzer._get_layout" id="96" />
+      <edge source="networkx.kamada_kawai_layout" target="dependency_analyzer.DependencyAnalyzer._get_layout" id="97" />
+      <edge source="networkx.topological_generations" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="98" />
+      <edge source="networkx.is_directed_acyclic_graph" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="99" />
+      <edge source="dependency_analyzer.max" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="100" />
+      <edge source="dependency_analyzer.enumerate" target="dependency_analyzer.DependencyAnalyzer._hierarchical_layout" id="101" />
+      <edge source="nodes.append" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="102" />
+      <edge source="f.write" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="103" />
+      <edge source="edges.append" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="104" />
+      <edge source="json.dumps" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="105" />
+      <edge source="dependency_analyzer.min" target="dependency_analyzer.DependencyAnalyzer.create_interactive_plot" id="106" />
+      <edge source="parser.parse_args" target="dependency_analyzer.main" id="107" />
+      <edge source="sys.exit" target="dependency_analyzer.main" id="108" />
+      <edge source="dependency_analyzer.tuple" target="dependency_analyzer.main" id="109" />
+      <edge source="parser.add_argument" target="dependency_analyzer.main" id="110" />
+      <edge source="analyzer.plot_graph" target="dependency_analyzer.main" id="111" />
+      <edge source="argparse.ArgumentParser" target="dependency_analyzer.main" id="112" />
+      <edge source="analyzer.save_graph" target="dependency_analyzer.main" id="113" />
+      <edge source="dependency_analyzer.DependencyAnalyzer" target="dependency_analyzer.main" id="114" />
+      <edge source="analyzer.find_utilities" target="dependency_analyzer.main" id="115" />
+      <edge source="graph.number_of_nodes" target="dependency_analyzer.main" id="116" />
+      <edge source="analyzer.print_stats" target="dependency_analyzer.main" id="117" />
+      <edge source="analyzer.create_interactive_plot" target="dependency_analyzer.main" id="118" />
+      <edge source="analyzer.analyze_project" target="dependency_analyzer.main" id="119" />
+      <edge source="analyzer.find_entry_points" target="dependency_analyzer.main" id="120" />
+    </edges>
+  </graph>
+</gexf>
